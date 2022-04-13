@@ -1,11 +1,11 @@
 /**
- *print_name - print name as is.
+ *print_name - prints a name.
  *@name: pointer to name.
  *@f: function pointer.
  *
  * Return: void
  */
-void print_name(char *name, void (*f)(char*))
+void print_name(char *name, void (*f)(char *))
 {
 	if (name && f)
 		f(name);
