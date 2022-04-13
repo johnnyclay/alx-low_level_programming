@@ -1,9 +1,7 @@
-
 /**
  *print_name - print name as is.
- *@name: name of the person
- *
- *@f: pointer to the printing function
+ *@name: pointer to name.
+ *@f: function pointer.
  *
  * Return: void
  */
