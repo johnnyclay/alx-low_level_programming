@@ -51,20 +51,3 @@ size_t listint_len(const listint_t *h)
 	return (count);
 }
 
-/**
- * check_ptr - checks if a pointer is in an array
- * @ptr: pointer to be checked
- * @array: array to be checked in
- * @size: size of the array
- *
- * Return: 1 on success, 0 on fail
- */
-int check_ptr(const listint_t *ptr, listint_t **array, unsigned int size)
-{
-	while (size-- >= 0)
-	{
-		if (ptr == array[size])
-			return (1);
-	}
-	return (0);
-}
